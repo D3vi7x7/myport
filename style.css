@@ -1,0 +1,483 @@
+@font-face {
+    font-family: logo;
+    src: url(./fracked-fracked-regular-400.ttf);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(./carrol-wild-carrol-wild-clean-400.ttf);
+}
+
+@font-face {
+    font-family: gd;
+    src: url(./glendale-glendale-bold-700.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+#page1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(./pexels-mo-eid-11592813.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#page1 #nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav #lft{
+    font-size: 30px;
+    padding: 10px 10px;
+    font-family: f2;
+}
+
+#nav #rt h2{
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 6px;
+    font-family: logo;
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    position: relative;
+    background-color: black;
+}
+
+#body{
+    position: relative;
+    font-family: f2;
+    font-size: 60px;
+    width: 60%;
+    left: 20%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#body span{
+    font-family: logo;
+}
+
+#foot{
+    font-size: 25px;
+    font-family: f2;
+    position: relative;
+    width: 30%;
+    left: 46%;
+}
+
+#abt{
+    width: 100%;
+    height: 100%;
+    background-color: #F39AC6;
+    position: absolute;
+    z-index: 9;
+    bottom: -100%;
+}
+
+#head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 80px 50px;
+    position: absolute;
+    font-family: f2;
+}
+
+#head h1{
+    font-size: 80px;
+}
+
+#head img{
+    mix-blend-mode: darken;
+    width: 80px;
+    height: 80px;
+}
+
+#abt #body{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    line-height: 55px;
+    justify-content: space-between;
+    position: absolute;
+    left: 50px;
+    padding-top: 80px;
+}
+
+#l2{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+#body img{
+    position: absolute;
+    right: 10%;
+    width: 500px;
+    height: 700px;
+}
+
+#body h2{
+    width: 50%;
+    font-family: f2;
+    font-size: 40px;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#scroll{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+#page2 #scroll h2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: f2;
+    color: #F39AC6;
+    white-space: nowrap;
+    margin-left: 30px;
+    font-size: 67.3px;
+    animation: anim 1s linear infinite;
+}
+
+#skl{
+    font-family: f2;
+    font-size: 35px;
+    font-weight: 900;
+    width: 100%;
+    height: 68%;
+    text-align: left;
+    position: relative;
+    padding: 130px 50px;
+}
+
+
+#scroll2{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: absolute;
+    left: -30%;
+    bottom: 0%;
+}
+
+#page2 #scroll2 h2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: f2;
+    color: #F39AC6;
+    white-space: nowrap;
+    margin-left: 30px;
+    font-size: 67.3px;
+    animation: anim 1s linear infinite;
+}
+
+#page3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image: url(./thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+}
+
+#page3 h2{
+    font-family: gd;
+    color: black;
+    font-size: 50px;
+}
+
+#page3 #ttl{
+    font-family: gd;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    color: black;
+    font-size: 100px;
+}
+
+#work1{
+    width: 100%;
+    position:absolute;
+    display: flex;
+    top: 40%;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#work1 h2{
+    font-family: f2;
+    color: black;
+    font-size: 45px;
+}
+
+#page3 #work1 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#work2{
+    width: 100%;
+    position:absolute;
+    display: flex;
+    top: 6.5%;
+    left: 54%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#work2 h2{
+    font-family: f2;
+    color: black;
+    font-size: 45px;
+}
+
+#page4 #work2 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#page4{
+    width: 100%;
+    height: 450%;
+    position: relative;
+    overflow: hidden;
+    background-image: url(./thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+}
+
+#work3{
+    width: 100%;
+    position:absolute;
+    display: flex;
+    top: 34%;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#work3 h2{
+    font-family: f2;
+    color: black;
+    font-size: 45px;
+}
+
+#page4 #work3 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#work4{
+    width: 100%;
+    position:absolute;
+    display: flex;
+    top: 55%;
+    left: 54%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#work4 h2{
+    font-family: f2;
+    color: black;
+    font-size: 45px;
+}
+
+#page4 #work4 img{
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#work5{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 77%;
+    left: 50px;
+    align-items: center;
+    gap: 40px;
+}
+
+#page4 #work5 img{
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#work5 h2{
+    font-family: f2;
+    color: black;
+    font-size: 45px;
+}
+
+#page5{
+    width: 100%;
+    height: 140%;
+    position: relative;
+    background-image: url(./thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+}
+
+#page5 h1{
+    font-family: gd;
+    position: absolute;
+    left: 7%;
+    top: 25.5%;
+    z-index: 25;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 4px;
+    color: transparent;
+    font-size: 150px;
+}
+
+#page5 #items{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    overflow: hidden;
+    left: 58%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+
+#pg1{
+    position: absolute;
+    top: 100%;
+}
+
+#page5 #items img{
+    width: 1080px;
+    height: 750px;
+    object-fit: cover;
+}
+
+#page6{
+    width: 100%;
+   height: 100%;
+   position: relative;
+   overflow: hidden;
+   background-color: black;
+}
+
+#page6 h1{
+    font-family: gd;
+    position: absolute;
+    left: 50px;
+    top: 9.5%;
+    color: white;
+    font-size: 250px;
+}
+
+#social{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    top: 77%;
+    left: 30px;
+}
+
+#social a:nth-child(2){
+    position: absolute;
+    left: 90px;
+    top: 35px;
+}
+
+#page6 a img{
+    width: 90px;
+}
+
+
+#page6 h3:nth-child(2){
+    font-family: gd;
+    position: absolute;
+    left: 50px;
+    top: 63%;
+    color: white;
+    font-size: 40px;
+}
+
+#page6 h3:nth-child(3){
+    font-family: gd;
+    position: absolute;
+    left: 50px;
+    top: 67%;
+    color: white;
+    font-size: 40px;
+}
+
+#page6 h3:nth-child(4){
+    font-family: gd;
+    position: absolute;
+    left: 50px;
+    top: 71%;
+    color: white;
+    font-size: 40px;
+}
+
+#loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 20;
+    background-color: #F39AC6;
+}
+
+#loader h1{
+    font-size: 55px;
+    font-family: gd;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
