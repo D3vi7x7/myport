@@ -26,7 +26,7 @@ gsap.to("#scroll2 h2",{
   duration:2,
   scrollTrigger:{
       tigger:"#page2",
-      markers:true,
+      markers:false,
       scrub:1
   }
 })
